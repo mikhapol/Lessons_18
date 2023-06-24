@@ -7,8 +7,10 @@ from config import config
 def main():
     api_key = os.getenv('YT_API_KEY')
     channel_ids = [
-        'UC-OVMPlMA3-YCIeg4z5z23A',  # moscowpython
+        'UCraVQW3OiTgfOcsIfS8-lqA',  # moscowpython
         'UCwHL6WHUarjGfUM_586me8w',  # highload
+        'UCraVQW3OiTgfOcsIfS8-lqA',  # id канала @RASAMUSIC
+        'UCrhVgfESOkz66vFxl3JyuOg',  # id канала @ESTRADARADA
 
     ]
     params = config()
